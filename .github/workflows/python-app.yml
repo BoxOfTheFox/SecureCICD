@@ -115,7 +115,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build docker images
-        run: docker build -t beta ./Dockerfile
+        run: docker build -t beta .
 
 
 
